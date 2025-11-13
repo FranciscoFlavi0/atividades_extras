@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade Extra</title>
+    <script defer src="scripts2.js"></script>
+</head>
+
+<body>
+    <!-- QUESTÃO 1  / Exemplos -->
+    <h1>Calculadora de IMC Simplificada</h1>
+    <div>
+        <input type="number" id="peso" placeholder="Peso (kg)" step="0.1">
+        <input type="number" id="altura" placeholder="Altura (m)" step="0.01">
+    </div>
+
+    <label>Sexo:</label>
+    <select id="sexo">
+        <option value="">Selecione</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+    </select><br><br>
+
+    <button onclick="botaoCalcular()">Calcular</button>
+    <div id="resultado"></div>
+
+    <!-- QUESTÃO 2  / Exemplos -->
+
+    <h2>Simulador de Votação</h2>
+
+    <select id="candidato">
+        <option value="0">Candidato A</option>
+        <option value="1">Candidato B</option>
+        <option value="2">Candidato C</option>
+    </select>
+
+    <div>
+        <button onclick="votar()">Votar</button>
+        <button onclick="apurar()">Apurar</button>
+        <button onclick="zerar()">Zerar</button>
+    </div>
+
+    <div id="resultado2"></div>
+
+
+    <!-- QUESTÃO 3  / Exemplos -->
+    <h1>Jogo de Adivinhação</h1>
+    <input id="numero" type="number" placeholder="Digite um número entre 1 e 10">
+    <button onclick="verificarNumero()">Verificar</button>
+    <!--<button onclick="reiniciar()">Reiniciar</button> -->
+    <div id="resultado3"></div>
+</body>
+
+</html>
