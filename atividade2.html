@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade Extra</title>
+    <script defer src="scripts3.js"></script>
+</head>
+
+<body>
+    <!-- QUESTÃO 1 -->
+    <h1>Calculadora de IMC Simplificada</h1>
+    <div>
+        <input type="number" id="peso" placeholder="Peso (kg)" step="0.1">
+        <input type="number" id="altura" placeholder="Altura (m)" step="0.01">
+        <button id="botaoCalcular">Calcular</button>
+        <button id="botaoLimpar">Limpar</button>
+        <div id="resultado"></div>
+    </div>
+
+    <h1>Simulador de Votação</h1>
+
+    <select id="candidato">
+        <option value="0">Candidato A</option>
+        <option value="1">Candidato B</option>
+        <option value="2">Candidato C</option>
+    </select>
+
+    <div>
+        <button onclick="votar()">Votar</button>
+        <button onclick="apurar()">Apurar</button>
+        <button onclick="zerar()">Zerar</button>
+    </div>
+
+    <label>
+        <input type="checkbox" id="tempoReal" onchange="atualizarCheckbox()">
+        Mostrar votos em tempo real
+    </label>
+    <div id="resultado2"></div>
+
+    <h1>Jogo de Adivinhação</h1>
+    <input id="numero" type="number" placeholder="Digite um número">
+    <button onclick="verificarNumero()">Verificar</button>
+
+    <input id="min" type="number" placeholder="Valor mínimo">
+    <input id="max" type="number" placeholder="Valor máximo">
+    <button onclick="iniciarJogo()">Iniciar jogo</button>
+
+    <p id="intervaloInfo"></p>
+
+    <br>
+    <div id="resultado3"></div>
+
+    <br><br>
+    <br><br>
+</body>
+
+</html>
