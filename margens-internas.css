@@ -1,0 +1,17 @@
+
+#internas1 {
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    margin-bottom: 1px;
+}
+
+#internas2 {
+    background-color: brown;
+    color: white;
+    padding: 20px 50px 20px 50px;
+}

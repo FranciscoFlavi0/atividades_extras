@@ -1,0 +1,28 @@
+h1 {
+    border-bottom: 1px solid gray;
+    border-left: 3px solid gray;
+    padding-left: 5px;
+}
+
+
+
+#bordas1 {
+    border: 1px solid black;
+}
+
+#bordas2 {
+    border-top: 2px dotted red;
+    border-right: 5px dashed green;
+    border-bottom: 3px double blue;
+    border-left: 10px solid yellow ;
+}
+
+#bordas3 {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}

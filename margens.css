@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: gray ;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 80%
+}
+
+#margens {
+    background-color: gray;
+    height: 100vh;
+    margin-top: 100px;
+    margin-right: 30%;
+    margin-bottom: 100px;
+    margin-left: 30%;
+}
+
+#margens-resumidas {
+    background-color: brown;
+    color: white;
+    margin: 300px 20% 50px 20%;
+}
